@@ -1,0 +1,197 @@
+{
+    "NewsFeed" : [
+        {
+            "id": 1,
+            "image": "https://coreldrawdesign.com/resources/previews/preview-coaching-classes-banner-for-free-social-media-banner-free-design-template-in-adobe-illustration-d-1713869904.jpg",
+            "title": "Commerce Classes",
+            "content": "Details about Commerce Classes Now Open For Registration"
+        },
+        {
+            "id": 2,
+            "image": "https://www.creativehatti.com/wp-content/uploads/2023/04/Learn-professional-skills-flat-banner-template-92-small.jpg",
+            "title": "Electrical Engineering Classes",
+            "content": "Details about In-Demand Electrical Engineering Classes"
+        },
+        {
+            "id": 3,
+            "image": "https://www.creativehatti.com/wp-content/uploads/edd/2023/05/Home-interior-design-flat-banner-template-14-large.jpg",
+            "title": "Interior Design Engineering Classes",
+            "content": "Details about In-Demand Interior Design Engineering Classes"
+        },
+        {
+            "id": 4,
+            "image": "https://www.creativehatti.com/wp-content/uploads/edd/2022/01/Construction-business-banner-template-design-5-large.jpg",
+            "title": "Construction business Classes",
+            "content": "Details about In-Demand Construction business Classes"
+        },
+        {
+            "id": 5,
+            "image": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/online-classes-ad-design-template-1aad74338f51481087853e1608e9a80e_screen.jpg?ts=1619995036",
+            "title": "All Online Classes",
+            "content": "Details about All Classes Like English, Chemistry, Physics, Mathematics"
+        },
+        {
+            "id": 6,
+            "image": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/online-classes-instagram-post-design-template-b0911dcebee1fe03b902d01cd5c10264_screen.jpg?ts=1677301243",
+            "title": "All Online Classes",
+            "content": "Details about All Classes Like English, Chemistry."
+        },
+        {
+            "id": 7,
+            "image": "https://edit.org/img/blog/tj4-computer-training-center-banner-design.webp",
+            "title": "Free Computer Training",
+            "content": "Details about In-Demand Free Computer Training Course"
+        },
+        {
+            "id": 8,
+            "image": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/computer-class-flyer-template-design-2fdb472b7e43faf70136b6d904b25e19_screen.jpg?ts=1673291817",
+            "title": "Computer Class",
+            "content": "Details about Programming, Graphics Design etc"
+        }
+    ],
+
+
+
+    "Events": [
+        { 
+            "id": 1, 
+            "image": "https://img.freepik.com/free-vector/flat-social-media-promo-template-international-day-education_23-2151084690.jpg",
+            "title": "Education Day Event", 
+            "date": "2024-11-28", 
+            "location": "Virtual" ,
+            "category": "Tech",
+            "capacity": 50
+        },
+        { 
+            "id": 2, 
+            "image": "https://market-resized.envatousercontent.com/previews/files/219138984/preview.png?w=590&h=300&cf_fit=crop&crop=top&format=auto&q=85&s=a46e095836ccec06078a00c4c250a66679f125360327ccfdc3a40b0c5572079e",
+            "title": "All Events Schedule", 
+            "date": "2024-11-27", 
+            "location": "All",
+            "category": "Business" ,
+            "capacity": 100
+        },
+        { 
+            "id": 3, 
+            "image": "https://thumbs.wbm.im/pw/medium/63eb8894ff24ed571ee37ae6fc5bdd1f.jpg",
+            "title": "Hosting Webinar Online Workshop", 
+            "date": "2024-11-24", 
+            "location": "Virtual",
+            "category": "Business" ,
+            "capacity": 100
+        },
+        { 
+            "id": 4, 
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThzGCHzipsks3RHWtePmB-UsLUc6o218S8lA&s",
+            "title": "Sport Event", 
+            "date": "2024-11-23", 
+            "location": "Physical",
+            "category": "Health",
+            "capacity": 200 
+        },
+        { 
+            "id": 1, 
+            "image": "https://marketplace.canva.com/EAE-us5ua6c/1/0/1600w/canva-modern-minimalist-pastel-blue-happy-teacher%27s-day-greeting-card-%28landscape%29-HcZ2NaL3k-E.jpg",
+            "title": "Teacher's Day Event", 
+            "date": "2025-9-5", 
+            "location": "Virtual",
+            "category": "Business" ,
+            "capacity": 50
+        },
+        { 
+            "id": 5, 
+            "image": "https://img.freepik.com/free-vector/christmas-season-celebration-landing-page-template_23-2149716730.jpg",
+            "title": "Christmas Events", 
+            "date": "2024-12-25", 
+            "location": "Physical",
+            "category": "Health" ,
+            "capacity": 50
+        }
+    ],
+
+
+    "Resource" : [
+        {
+            "id": 1,
+            "title": "Coursebook for History",
+            "type": "Coursebook",
+            "category": "Coursebooks",
+            "image": "https://5.imimg.com/data5/SELLER/Default/2022/4/ZE/GF/LA/150658644/modern-india1-500x500.jpg",
+            "description": "A complete history coursebook for students.",
+            "preview": "History coursebook preview content here",
+            "downloadLink": "/downloads/history-coursebook"
+        },
+        {
+            "id": 2,
+            "title": "Workbook for Business",
+            "type": "Workbook",
+            "category": "Workbook",
+            "image": "https://t3.ftcdn.net/jpg/05/25/41/14/360_F_525411438_uJPyuJ6EyQiqVrrZfcvA0J0v4N2BrZZN.jpg",
+            "description": "A complete Business workbook for students.",
+            "preview": "Business workbook preview content here",
+            "downloadLink": "/downloads/history-coursebook"
+        },
+        {
+            "id": 3,
+            "title": "Essentials Of Commerce",
+            "type": "Textbook",
+            "category": "Textbooks",
+            "image": "https://rukminim2.flixcart.com/image/850/1000/xif0q/regionalbooks/0/j/s/essentials-of-commerce-textbook-for-isc-class-12-2024-25-original-imagwujbnpr4sq5u.jpeg?q=90&crop=false",
+            "description": "A complete Commerce Textbook for students.",
+            "preview": "Commerce Textbook preview content here",
+            "downloadLink": "/downloads/history-coursebook"
+        },
+        {
+            "id": 4,
+            "title": "CAD for Interior Design",
+            "type": "CAD",
+            "category": "Coursebooks",
+            "image": "https://prototechsolutions.com/wp-content/uploads/2024/02/How-CAD-Helps-to-Interior-Design-and-Planning-Industry-1024x512.webp",
+            "description": "CAD Helps to Interior Design and Planning Industry",
+            "preview": "Interior Design preview content here",
+            "downloadLink": "/downloads/history-coursebook"
+        },
+        {
+            "id": 5,
+            "title": "Chart for Construction and Patterns",
+            "type": "Chart",
+            "category": "Charts",
+            "image": "https://images.twinkl.co.uk/tw1n/image/private/t_630_eco/image_repo/99/ba/roi-ms-1712148132-teaching-ideas-for-construction-and-patterns_ver_1.jpg",
+            "description": "A complete Construction Chart for students.",
+            "preview": "Construction and Patterns preview content here",
+            "downloadLink": "/downloads/history-coursebook"
+        },
+        {
+            "id": 6,
+            "title": "virtual tutorial for Computer",
+            "type": "virtual tutorial",
+            "category": "virtual tutorial",
+            "image": "https://merientinfotech.com/wp-content/uploads/2019/12/basic-computer-training-banner-1200x800.jpg",
+            "description": "A complete Computer virtual tutorial for students.",
+            "preview": "Computer virtual tutorial preview content here",
+            "downloadLink": "/downloads/history-coursebook"
+        },
+        {
+            "id": 7,
+            "title": "Coursebook for English",
+            "type": "Coursebook",
+            "category": "Coursebooks",
+            "image": "https://rukminim2.flixcart.com/image/850/1000/xif0q/book/o/0/e/basic-english-course-workbook-by-bm-english-institute-workbook-original-imaghrj4mk9dfpy7.jpeg?q=90&crop=false",
+            "description": "A complete English coursebook for students.",
+            "preview": "English coursebook preview content here",
+            "downloadLink": "/downloads/history-coursebook"
+        },
+        {
+            "id": 1,
+            "title": "Textbook for Mathematics",
+            "type": "Textbook",
+            "category": "Textbooks",
+            "image": "https://media.karousell.com/media/photos/products/2023/12/14/nt_math_textbook__workbook_1702525854_68d6462b_progressive.jpg",
+            "description": "A complete Mathematics Textbook for students.",
+            "preview": " Mathematics Textbook preview content here",
+            "downloadLink": "/downloads/history-coursebook"
+        }
+    ]
+
+  }
+  

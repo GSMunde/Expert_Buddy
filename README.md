@@ -1,70 +1,175 @@
-# Getting Started with Create React App
+# Project Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Assignment Application is a web platform designed for user management, event tracking, teaching resources, and community interactions. It includes features like role-based access, resource filtering, and customizable settings, all implemented without a backend, using mock JSON data for dynamic functionality.
 
-## Available Scripts
+## Key Features
 
-In the project directory, you can run:
+1. Authentication & User Management
+    User Registration
+    Login System
 
-### `npm start`
+2. Navbar
+    Navigation Menu
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. Homepage Feed
+    News Feed with Pagination
+    Comments and Reactions
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. Events System
+    Event Listing
+    Event Details
 
-### `npm test`
+5. Teaching Resources
+    Categorized Sections
+    Resource Preview and Bookmarking
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+6. Community Features
+    Real-Time Chat Room
+    Teaching Q&A
 
-### `npm run build`
+7. Settings & Documentation
+    Profile Customization and Privacy Settings
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 
+If you're not using a backend, the README.md should be adjusted to reflect that the data is coming from a JSON file or mock data instead of an API. I'll update the instructions accordingly.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+For screenshots, you can:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Place the images in a screenshots folder inside your project directory.
+Use relative paths in the README.md to reference these screenshots.
+Here’s the updated README.md tailored for your project:
 
-### `npm run eject`
+Assignment Application
+Project Overview
+The Assignment Application is a web platform designed for user management, event tracking, teaching resources, and community interactions. It includes features like role-based access, resource filtering, and customizable settings, all implemented without a backend, using mock JSON data for dynamic functionality.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Screenshots/GIFs of Key Features
+1. Authentication & User Management
+User Registration
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Login System
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Navbar
+Navigation Menu
+3. Homepage Feed
+News Feed with Pagination
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Comments and Reactions
 
-## Learn More
+4. Events System
+Event Listing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Event Details
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Teaching Resources
+Categorized Sections
 
-### Code Splitting
+Resource Preview and Bookmarking
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+6. Community Features
+Real-Time Chat Room
 
-### Analyzing the Bundle Size
+Teaching Q&A
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+7. Settings & Documentation
+Profile Customization and Privacy Settings
 
-### Making a Progressive Web App
+## Setup Instructions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* Prerequisites
+    Node.js
+    npm 
 
-### Advanced Configuration
+# Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Clone the Repository:
 
-### Deployment
+    git clone https://github.com/GSMunde/Expert_Buddy.git
+    cd assignment-app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+2. Install Dependencies:
+    npm install
 
-### `npm run build` fails to minify
+3. Start the Development Server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    npm start
+
+4. Access the Application: Open http://localhost:3000 in your browser.
+
+## Tech Stack
+
+# Frontend:
+   * React.js: For building dynamic UI components.
+   * React Router: For navigation and routing.
+   * Context API: For state management.
+   * Tailwind CSS: For responsive styling.
+   * React Hook Form: For form handling and validation.
+
+# Data:
+   * Mock JSON data stored in src/Context/mockUsers.js.
+
+## How the Application Works
+
+1. Authentication:
+   * The login system validates credentials against the mockData.json file and simulates authentication using state variables.
+    
+2. Event Management:
+    * Events are stored in the JSON file and filtered on the frontend without requiring a backend.
+
+3. Teaching Resources:
+    * Resources are dynamically loaded and categorized using the data from the JSON file.
+
+## Core Features
+
+1. Authentication & User Management
+   * User registration and login using mock data.
+   * Role-based access (Admin, Tutor, Student).
+   * Profile management with editable fields.
+
+2. Navbar
+   * Navigation menu includes links to Home, Events, Profile, and Resources.
+
+3. Homepage Feed
+   * Rich-text announcements with comments and reactions.
+   * Pagination or infinite scroll for seamless browsing.
+
+4. Events System
+   * Filterable event listing.
+   * RSVP functionality and detailed event view.
+
+5. Teaching Resources
+   * Categorized resources with preview and bookmarking options.
+   * Searchable and filterable resource database.
+
+6. Community Features
+   * Real-time chat simulated with mock data.
+   * Q&A section with voting and categorization.
+
+7. Settings & Documentation
+   * Profile customization and privacy toggles.
+   * Onboarding guide with FAQs and tutorials.
+
+## Future Improvements
+
+1. Backend Integration:
+ * Replace mock data with real backend APIs for dynamic updates.
+ 
+2. Enhanced Features:
+ * Add push notifications for events and messages.
+ * Enable private messaging for community members.
+
+3. Mobile App:
+ * Develop a mobile-friendly version using React Native.
+
+4. Improved Performance:
+ * Implement lazy loading for components and assets.
+
+## Contributing
+    1. Fork the repository.
+    2. Create a feature branch (git checkout -b feature-name).
+    3. Commit your changes (git commit -m "Add feature name").
+    4. Push to your branch (git push origin feature-name).
+    5. Create a pull request.
+
+## License
+   * This project is licensed under the MIT License. See the LICENSE file for details.
